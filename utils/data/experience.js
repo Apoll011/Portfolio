@@ -7,6 +7,13 @@ export const experiences = [
   },
   {
     id: 2,
+    title: "Programador",
+    company: "Equipa de FGC (First Global Challenge) de Cabo Verde",
+    duration: "(Jan 2025 - Out 2025)",
+    description: "Foi programador da equipa official de robotica FGC de Cabo Verde (Temporada Panamá 2025), onde ajudei a desenvolver o sistema de navegação e habilidades do robo, usado na competição desta temporada."
+  },
+  {
+    id: 3,
     title: "Estagio Profissional",
     company: "DoutVision Lda.",
     duration: "(Jul 2025 - Nov 2025)",

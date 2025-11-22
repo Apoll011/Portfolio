@@ -6,13 +6,13 @@ export const SLIDE_IDS = {
   AVI_ENCLOSURE: 'avi-enclosure',
   AVI_STUDIO: 'avi-studio',
   AVI_DOCS: 'avi-docs',
-  AACP_V2: 'aacp-v2',
+  AECP_V2: 'AECP-v2',
   // Alex (Archived)
   ALEX: 'alex',
   ALEX_INTENT_EDITOR: 'alex-intent-editor',
   ALEX_DASHBOARD: 'alex-dashboard',
   // Protocols
-  AESP: 'aesp',
+  AECP: 'AECP',
   // Web Applications
   EBF_CLIENT: 'ebf-client',
   FINALIST_HUB: 'finalist-hub',

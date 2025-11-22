@@ -39,8 +39,8 @@ export const projectsData: Project[] = [
     preview: homepagePreview,
     position: { x: -1400, y: 1200, z: 300, rotateY: 310 },
     description:
-        'A lightweight operating system that enables various devices to communicate with Avi through AACP v2 protocol',
-    tech: ['Embedded', 'OS', 'IoT', 'AACP'],
+        'A lightweight operating system that enables various devices to communicate with Avi through AECP v2 protocol',
+    tech: ['Embedded', 'OS', 'IoT', 'AECP'],
     links: [
       { type: 'code', url: 'https://github.com/apoll011/avi-enclosure', text: 'Github', githubRepo: 'apoll011/avi-enclosure' },
     ],
@@ -71,23 +71,21 @@ export const projectsData: Project[] = [
         'Comprehensive documentation site for the Avi ecosystem - guides, API references, and tutorials for developers',
     tech: ['Documentation', 'Web', 'Developer Resources'],
     links: [
-      { type: 'demo', url: 'https://docs.avi.example.com', text: 'View Docs' },
+      { type: 'demo', url: 'https://alex-documentation-server-kvy6-ebz7xjhh8-apoll011s-projects.vercel.app', text: 'View Docs' },
       { type: 'code', url: 'https://github.com/apoll011/avi-docs', text: 'Github', githubRepo: 'apoll011/avi-docs' },
     ],
     layout: 'standard',
   },
   {
-    id: SLIDE_IDS.AACP_V2,
-    name: 'AACP v2',
-    title: 'AACP v2',
+    id: SLIDE_IDS.AECP_V2,
+    name: 'AECP v2',
+    title: 'AECP v2',
     preview: homepagePreview,
     position: { x: 2400, y: -900, z: 400, rotateY: 75 },
     description:
         'Avi Assistant Communication Protocol version 2 - a simplified protocol for device-to-Avi communication',
     tech: ['Protocol', 'Communication', 'IoT'],
-    links: [
-      { type: 'code', url: 'https://github.com/apoll011/aacp-v2', text: 'Github', githubRepo: 'apoll011/aacp-v2' },
-    ],
+    links: [],
     layout: 'reverse',
   },
 
@@ -116,7 +114,7 @@ export const projectsData: Project[] = [
         'A DSL-based editor for creating intents for Alex - define text patterns, skills, and actions in a visual interface',
     tech: ['DSL', 'Editor', 'NLP', 'Archived'],
     links: [
-      { type: 'code', url: 'https://github.com/apoll011/alex-intent-editor', text: 'Github', githubRepo: 'apoll011/alex-intent-editor' },
+      { type: 'code', url: 'https://github.com/apoll011/AlexIntentEditor', text: 'Github', githubRepo: 'apoll011/AlexIntentEditor' },
     ],
     layout: 'reverse',
   },
@@ -130,23 +128,23 @@ export const projectsData: Project[] = [
         'A web dashboard for controlling and configuring Alex assistant properties. Now archived.',
     tech: ['Dashboard', 'Web', 'Admin', 'Archived'],
     links: [
-      { type: 'code', url: 'https://github.com/apoll011/alex-dashboard', text: 'Github', githubRepo: 'apoll011/alex-dashboard' },
+      { type: 'code', url: 'https://github.com/apoll011/AlexAdminWebsite', text: 'Github', githubRepo: 'apoll011/AlexAdminWebsite' },
     ],
     layout: 'standard',
   },
 
   // === PROTOCOLS ===
   {
-    id: SLIDE_IDS.AESP,
-    name: 'AESP',
-    title: 'AESP',
+    id: SLIDE_IDS.AECP,
+    name: 'AECP',
+    title: 'AECP',
     preview: homepagePreview,
     position: { x: 300, y: 2200, z: 500, rotateY: 15 },
     description:
-        'AVE-Core Communication Protocol - the first version of the protocol designed for communication between AVE and its CORE',
+        'AVE-Core Communication Protocol - the first version of the protocol designed for communication between AVI and its CORE',
     tech: ['Protocol', 'Communication', 'Networking'],
     links: [
-      { type: 'code', url: 'https://github.com/apoll011/aesp', text: 'Github', githubRepo: 'apoll011/aesp' },
+      { type: 'code', url: 'https://github.com/apoll011/aecp-python', text: 'Github', githubRepo: 'apoll011/aecp-python' },
     ],
     layout: 'reverse',
   },
@@ -162,7 +160,7 @@ export const projectsData: Project[] = [
         'A comprehensive church camp management dashboard - track children attendance, manage game markets, and handle all camp-related activities',
     tech: ['Fullstack', 'Dashboard', 'Web', 'Church'],
     links: [
-      { type: 'demo', url: 'https://ebf.example.com', text: 'Live Demo' },
+      { type: 'demo', url: 'https://ebf-client-1n2sctm47-apoll011s-projects.vercel.app', text: 'Live Demo' },
       { type: 'code', url: 'https://github.com/apoll011/ebf-client', text: 'Github', githubRepo: 'apoll011/ebf-client' },
     ],
     layout: 'standard',
@@ -177,8 +175,8 @@ export const projectsData: Project[] = [
         'Event management platform for 12th grade graduation committee - create events, manage ticket sales, and track finances',
     tech: ['Fullstack', 'Events', 'E-commerce', 'Web'],
     links: [
-      { type: 'demo', url: 'https://finalisthub.example.com', text: 'Live Demo' },
-      { type: 'code', url: 'https://github.com/apoll011/finalist-hub', text: 'Github', githubRepo: 'apoll011/finalist-hub' },
+      { type: 'demo', url: 'finalist-hub.vercel.app', text: 'Live Demo' },
+      { type: 'code', url: 'https://github.com/apoll011/FinalistHub-Client', text: 'Github', githubRepo: 'apoll011/FinalistHub-Client' },
     ],
     layout: 'reverse',
   },
@@ -192,8 +190,8 @@ export const projectsData: Project[] = [
         'An educational platform teaching children and teenagers how to safely and responsibly use social media',
     tech: ['Education', 'Web', 'Social Media', 'Youth'],
     links: [
-      { type: 'demo', url: 'https://socialwave.example.com', text: 'Live Demo' },
-      { type: 'code', url: 'https://github.com/apoll011/social-wave', text: 'Github', githubRepo: 'apoll011/social-wave' },
+      { type: 'demo', url: 'socialwave-ra1u8wt7m-apoll011s-projects.vercel.app', text: 'Live Demo' },
+      { type: 'code', url: 'https://github.com/apoll011/SocialWaveSite', text: 'Github', githubRepo: 'apoll011/SocialWaveSite' },
     ],
     layout: 'standard',
   },
@@ -209,8 +207,8 @@ export const projectsData: Project[] = [
         'A modular block-based note-taking app for journaling thoughts and emotions - express yourself through structured writing',
     tech: ['Notes', 'Productivity', 'Block Editor', 'Mental Health'],
     links: [
-      { type: 'demo', url: 'https://deepthoughts.example.com', text: 'Try It' },
-      { type: 'code', url: 'https://github.com/apoll011/deep-thoughts', text: 'Github', githubRepo: 'apoll011/deep-thoughts' },
+      { type: 'demo', url: 'https://deepthoughts-omega.vercel.app/', text: 'Try It' },
+      { type: 'code', url: 'https://github.com/apoll011/deepthoughts', text: 'Github', githubRepo: 'apoll011/deepthoughts' },
     ],
     layout: 'reverse',
   },
@@ -220,14 +218,13 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.PROMISE,
     name: 'Promise',
     title: 'Promise',
-    preview: homepagePreview,
+    preview: "",
     position: { x: -1100, y: 500, z: 2600, rotateY: 330 },
     description:
         'A Python library with thread-safe Promise implementation inspired by JavaScript - handle asynchronous operations elegantly',
     tech: ['Python', 'Library', 'Async', 'Threading'],
     links: [
-      { type: 'demo', url: 'https://pypi.org/project/promise-lib', text: 'PyPI' },
-      { type: 'code', url: 'https://github.com/apoll011/promise', text: 'Github', githubRepo: 'apoll011/promise' },
+      { type: 'code', url: 'https://github.com/apoll011/Promise', text: 'Github', githubRepo: 'apoll011/Promise' },
     ],
     layout: 'standard',
   },
@@ -235,13 +232,13 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.CONTEXT_MANAGER,
     name: 'Context Manager',
     title: 'Context Manager',
-    preview: homepagePreview,
+    preview: "",
     position: { x: 2700, y: 200, z: 1700, rotateY: 60 },
     description:
         'A Python library for saving and loading objects to/from memory or files - simplified state persistence',
     tech: ['Python', 'Library', 'Serialization', 'State Management'],
     links: [
-      { type: 'code', url: 'https://github.com/apoll011/context-manager', text: 'Github', githubRepo: 'apoll011/context-manager' },
+      { type: 'code', url: 'https://github.com/apoll011/ContextManager', text: 'Github', githubRepo: 'apoll011/ContextManager' },
     ],
     layout: 'reverse',
   },
@@ -251,14 +248,14 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.LOGATE,
     name: 'Logate',
     title: 'Logate',
-    preview: homepagePreview,
+    preview: "",
     position: { x: -300, y: -1100, z: 2900, rotateY: 145 },
     description:
         'A logic inference engine that derives new premises from existing ones - input premises and discover logical conclusions',
     tech: ['Logic', 'Inference Engine', 'AI', 'Reasoning'],
     links: [
       { type: 'demo', url: 'https://logate.example.com', text: 'Try It' },
-      { type: 'code', url: 'https://github.com/apoll011/logate', text: 'Github', githubRepo: 'apoll011/logate' },
+      { type: 'code', url: 'https://github.com/apoll011/LoGate', text: 'Github', githubRepo: 'apoll011/LoGate' },
     ],
     layout: 'standard',
   },
@@ -297,8 +294,8 @@ export const mapData = [
     icon: 'fas fa-book',
   },
   {
-    id: SLIDE_IDS.AACP_V2,
-    name: 'AACP v2',
+    id: SLIDE_IDS.AECP_V2,
+    name: 'AECP v2',
     icon: 'fas fa-network-wired',
   },
   // === ALEX (ARCHIVED) ===
@@ -319,8 +316,8 @@ export const mapData = [
   },
   // === PROTOCOLS ===
   {
-    id: SLIDE_IDS.AESP,
-    name: 'AESP',
+    id: SLIDE_IDS.AECP,
+    name: 'AECP',
     icon: 'fas fa-exchange-alt',
   },
   // === WEB APPLICATIONS ===

@@ -9,13 +9,12 @@ export const projectsData: Project[] = [
     name: 'Avi Core',
     title: 'Avi Core',
     preview: homepagePreview,
-    position: { x: 1500, y: 500, z: 0, rotateY: 0 },
+    position: { x: 1500, y: -500, z: 0, rotateY: 0 },
     description:
         'The central AI voice assistant - a modern, intelligent personal assistant capable of understanding natural language and executing complex tasks',
     tech: ['AI', 'Voice Assistant', 'NLP', 'Python'],
     links: [
-      { type: 'demo', url: 'https://avi.example.com', text: 'Learn More' },
-      { type: 'code', url: 'https://github.com/username/avi-core', text: 'Github', githubRepo: 'username/avi-core' },
+      { type: 'code', url: 'https://github.com/apoll011/aviCore', text: 'Github', githubRepo: 'apoll011/aviCore' },
     ],
     layout: 'standard',
   },
@@ -29,7 +28,7 @@ export const projectsData: Project[] = [
         'Avi Natural Language Understanding Engine - a cloud service that powers Avi\'s ability to comprehend and process natural language',
     tech: ['NLU', 'Cloud', 'Machine Learning', 'API'],
     links: [
-      { type: 'code', url: 'https://github.com/username/avi-nlu', text: 'Github', githubRepo: 'username/avi-nlu' },
+      { type: 'code', url: 'https://github.com/apoll011/avi-nlu', text: 'Github', githubRepo: 'apoll011/avi-nlu' },
     ],
     layout: 'reverse',
   },
@@ -43,7 +42,7 @@ export const projectsData: Project[] = [
         'A lightweight operating system that enables various devices to communicate with Avi through AACP v2 protocol',
     tech: ['Embedded', 'OS', 'IoT', 'AACP'],
     links: [
-      { type: 'code', url: 'https://github.com/username/avi-enclosure', text: 'Github', githubRepo: 'username/avi-enclosure' },
+      { type: 'code', url: 'https://github.com/apoll011/avi-enclosure', text: 'Github', githubRepo: 'apoll011/avi-enclosure' },
     ],
     layout: 'standard',
   },
@@ -57,8 +56,8 @@ export const projectsData: Project[] = [
         'An integrated development environment (IDE) for creating and managing skills for the Avi assistant',
     tech: ['IDE', 'Developer Tools', 'Skills', 'Desktop'],
     links: [
-      { type: 'demo', url: 'https://github.com/username/avi-studio/releases', text: 'Download' },
-      { type: 'code', url: 'https://github.com/username/avi-studio', text: 'Github', githubRepo: 'username/avi-studio' },
+      { type: 'demo', url: 'https://github.com/apoll011/avi-studio/releases', text: 'Download' },
+      { type: 'code', url: 'https://github.com/apoll011/avi-studio', text: 'Github', githubRepo: 'apoll011/avi-studio' },
     ],
     layout: 'reverse',
   },
@@ -73,7 +72,7 @@ export const projectsData: Project[] = [
     tech: ['Documentation', 'Web', 'Developer Resources'],
     links: [
       { type: 'demo', url: 'https://docs.avi.example.com', text: 'View Docs' },
-      { type: 'code', url: 'https://github.com/username/avi-docs', text: 'Github', githubRepo: 'username/avi-docs' },
+      { type: 'code', url: 'https://github.com/apoll011/avi-docs', text: 'Github', githubRepo: 'apoll011/avi-docs' },
     ],
     layout: 'standard',
   },
@@ -87,7 +86,7 @@ export const projectsData: Project[] = [
         'Avi Assistant Communication Protocol version 2 - a simplified protocol for device-to-Avi communication',
     tech: ['Protocol', 'Communication', 'IoT'],
     links: [
-      { type: 'code', url: 'https://github.com/username/aacp-v2', text: 'Github', githubRepo: 'username/aacp-v2' },
+      { type: 'code', url: 'https://github.com/apoll011/aacp-v2', text: 'Github', githubRepo: 'apoll011/aacp-v2' },
     ],
     layout: 'reverse',
   },
@@ -103,7 +102,7 @@ export const projectsData: Project[] = [
         'The original AI voice assistant (predecessor to Avi) - built in Python, Julia, and Java. Now archived.',
     tech: ['AI', 'Voice Assistant', 'Python', 'Julia', 'Java', 'Archived'],
     links: [
-      { type: 'code', url: 'https://github.com/username/alex', text: 'Github', githubRepo: 'username/alex' },
+      { type: 'code', url: 'https://github.com/apoll011/alex', text: 'Github', githubRepo: 'apoll011/alex' },
     ],
     layout: 'standard',
   },
@@ -117,7 +116,7 @@ export const projectsData: Project[] = [
         'A DSL-based editor for creating intents for Alex - define text patterns, skills, and actions in a visual interface',
     tech: ['DSL', 'Editor', 'NLP', 'Archived'],
     links: [
-      { type: 'code', url: 'https://github.com/username/alex-intent-editor', text: 'Github', githubRepo: 'username/alex-intent-editor' },
+      { type: 'code', url: 'https://github.com/apoll011/alex-intent-editor', text: 'Github', githubRepo: 'apoll011/alex-intent-editor' },
     ],
     layout: 'reverse',
   },
@@ -131,7 +130,7 @@ export const projectsData: Project[] = [
         'A web dashboard for controlling and configuring Alex assistant properties. Now archived.',
     tech: ['Dashboard', 'Web', 'Admin', 'Archived'],
     links: [
-      { type: 'code', url: 'https://github.com/username/alex-dashboard', text: 'Github', githubRepo: 'username/alex-dashboard' },
+      { type: 'code', url: 'https://github.com/apoll011/alex-dashboard', text: 'Github', githubRepo: 'apoll011/alex-dashboard' },
     ],
     layout: 'standard',
   },
@@ -147,7 +146,7 @@ export const projectsData: Project[] = [
         'AVE-Core Communication Protocol - the first version of the protocol designed for communication between AVE and its CORE',
     tech: ['Protocol', 'Communication', 'Networking'],
     links: [
-      { type: 'code', url: 'https://github.com/username/aesp', text: 'Github', githubRepo: 'username/aesp' },
+      { type: 'code', url: 'https://github.com/apoll011/aesp', text: 'Github', githubRepo: 'apoll011/aesp' },
     ],
     layout: 'reverse',
   },
@@ -164,7 +163,7 @@ export const projectsData: Project[] = [
     tech: ['Fullstack', 'Dashboard', 'Web', 'Church'],
     links: [
       { type: 'demo', url: 'https://ebf.example.com', text: 'Live Demo' },
-      { type: 'code', url: 'https://github.com/username/ebf-client', text: 'Github', githubRepo: 'username/ebf-client' },
+      { type: 'code', url: 'https://github.com/apoll011/ebf-client', text: 'Github', githubRepo: 'apoll011/ebf-client' },
     ],
     layout: 'standard',
   },
@@ -179,7 +178,7 @@ export const projectsData: Project[] = [
     tech: ['Fullstack', 'Events', 'E-commerce', 'Web'],
     links: [
       { type: 'demo', url: 'https://finalisthub.example.com', text: 'Live Demo' },
-      { type: 'code', url: 'https://github.com/username/finalist-hub', text: 'Github', githubRepo: 'username/finalist-hub' },
+      { type: 'code', url: 'https://github.com/apoll011/finalist-hub', text: 'Github', githubRepo: 'apoll011/finalist-hub' },
     ],
     layout: 'reverse',
   },
@@ -194,7 +193,7 @@ export const projectsData: Project[] = [
     tech: ['Education', 'Web', 'Social Media', 'Youth'],
     links: [
       { type: 'demo', url: 'https://socialwave.example.com', text: 'Live Demo' },
-      { type: 'code', url: 'https://github.com/username/social-wave', text: 'Github', githubRepo: 'username/social-wave' },
+      { type: 'code', url: 'https://github.com/apoll011/social-wave', text: 'Github', githubRepo: 'apoll011/social-wave' },
     ],
     layout: 'standard',
   },
@@ -211,7 +210,7 @@ export const projectsData: Project[] = [
     tech: ['Notes', 'Productivity', 'Block Editor', 'Mental Health'],
     links: [
       { type: 'demo', url: 'https://deepthoughts.example.com', text: 'Try It' },
-      { type: 'code', url: 'https://github.com/username/deep-thoughts', text: 'Github', githubRepo: 'username/deep-thoughts' },
+      { type: 'code', url: 'https://github.com/apoll011/deep-thoughts', text: 'Github', githubRepo: 'apoll011/deep-thoughts' },
     ],
     layout: 'reverse',
   },
@@ -228,7 +227,7 @@ export const projectsData: Project[] = [
     tech: ['Python', 'Library', 'Async', 'Threading'],
     links: [
       { type: 'demo', url: 'https://pypi.org/project/promise-lib', text: 'PyPI' },
-      { type: 'code', url: 'https://github.com/username/promise', text: 'Github', githubRepo: 'username/promise' },
+      { type: 'code', url: 'https://github.com/apoll011/promise', text: 'Github', githubRepo: 'apoll011/promise' },
     ],
     layout: 'standard',
   },
@@ -242,7 +241,7 @@ export const projectsData: Project[] = [
         'A Python library for saving and loading objects to/from memory or files - simplified state persistence',
     tech: ['Python', 'Library', 'Serialization', 'State Management'],
     links: [
-      { type: 'code', url: 'https://github.com/username/context-manager', text: 'Github', githubRepo: 'username/context-manager' },
+      { type: 'code', url: 'https://github.com/apoll011/context-manager', text: 'Github', githubRepo: 'apoll011/context-manager' },
     ],
     layout: 'reverse',
   },
@@ -259,7 +258,7 @@ export const projectsData: Project[] = [
     tech: ['Logic', 'Inference Engine', 'AI', 'Reasoning'],
     links: [
       { type: 'demo', url: 'https://logate.example.com', text: 'Try It' },
-      { type: 'code', url: 'https://github.com/username/logate', text: 'Github', githubRepo: 'username/logate' },
+      { type: 'code', url: 'https://github.com/apoll011/logate', text: 'Github', githubRepo: 'apoll011/logate' },
     ],
     layout: 'standard',
   },

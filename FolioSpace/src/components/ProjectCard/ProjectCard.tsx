@@ -118,7 +118,7 @@ const ProjectCard = memo(({ project }: { project: Project }) => {
           `https://api.github.com/repos/${githubRepo}`,
           {
             headers: {
-              Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+              Authorization: `bearer ${import.meta.env.GITHUB_TOKEN}`,
               Accept: 'application/json',
             },
           },

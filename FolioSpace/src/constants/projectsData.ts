@@ -8,7 +8,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.AVI_CORE,
     name: 'Avi Core',
     title: 'Avi Core',
-    preview: homepagePreview,
+    preview: "",
     position: { x: 1500, y: -500, z: 0, rotateY: 0 },
     description:
         'The central AI voice assistant - a modern, intelligent personal assistant capable of understanding natural language and executing complex tasks',

@@ -113,31 +113,15 @@ const ProjectCard = memo(({ project }: { project: Project }) => {
         setLoading(false);
         return;
       }
-      try {
-        const response = await fetch(
-          `https://api.github.com/repos/${githubRepo}`,
-          {
-            headers: {
-              Authorization: `bearer ${import.meta.env.GITHUB_TOKEN}`,
-              Accept: 'application/json',
-            },
-          },
-        );
 
+      try {
+        const response = await fetch(`/api/github-repo?repo=${githubRepo}`);
         if (!response.ok) {
-          throw new Error(`GitHub API error: ${response.status}`);
+          throw new Error(`Server error: ${response.status}`);
         }
 
         const data = await response.json();
-        setRepoInfo({
-          stars: data.stargazers_count || 0,
-          forks: data.forks_count || 0,
-          issues: data.open_issues_count || 0,
-          language: data.language || '',
-          license: data.license?.name || null,
-          createdAt: data.created_at,
-          updatedAt: data.updated_at,
-        });
+        setRepoInfo(data);
       } catch (error) {
         console.error('Failed to fetch GitHub repo info:', error);
         setRepoInfo({
@@ -153,7 +137,7 @@ const ProjectCard = memo(({ project }: { project: Project }) => {
         setLoading(false);
       }
     })();
-  }, []);
+  }, [githubRepo]);
 
   const techTags = useMemo(
     () => (

@@ -202,7 +202,7 @@ export const projectsData: Project[] = [
     name: 'DeepThoughts',
     title: 'DeepThoughts',
     preview: homepagePreview,
-    position: { x: 1500, y: -300, z: 2400, rotateY: 120 },
+    position: { x: 1500, y: -300, z: 2400, rotateY: 10 },
     description:
         'A modular block-based note-taking app for journaling thoughts and emotions - express yourself through structured writing',
     tech: ['Notes', 'Productivity', 'Block Editor', 'Mental Health'],

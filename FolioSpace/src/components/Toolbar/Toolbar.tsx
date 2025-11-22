@@ -153,6 +153,13 @@ const Toolbar = () => {
   return (
     <div className="toolbar">
       <button
+          className="toolbar-btn cursor-target"
+          onClick={handleHome}
+          data-tooltip="Home"
+      >
+        <i className="fas fa-house"></i>
+      </button>
+      <button
         className="toolbar-btn cursor-target"
         onClick={handlePrev}
         data-tooltip="Previous"
@@ -188,13 +195,6 @@ const Toolbar = () => {
       >
         <i className="fas fa-map"></i>
         {isMiniMapVisible && <div className="minimap-indicator"></div>}
-      </button>
-      <button
-          className="toolbar-btn cursor-target"
-          onClick={handleHome}
-          data-tooltip="Home"
-      >
-        <i className="fas fa-house"></i>
       </button>
       <button
         className="toolbar-btn theme-btn cursor-target"

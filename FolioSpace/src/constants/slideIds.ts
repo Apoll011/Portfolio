@@ -1,13 +1,29 @@
 export const SLIDE_IDS = {
   TITLE: 'title',
-  GWITTER: 'gwitter',
-  HOMEPAGE: 'homepage',
-  GALLERY: 'gallery',
-  TERMFOLIO: 'termfolio',
-  THINKING: 'thinking',
-  SCRCPY: 'scrcpy',
-  ITALKING: 'italking',
-  PROJECTS: 'projects',
+  // Avi Ecosystem
+  AVI_CORE: 'avi-core',
+  AVI_NLU: 'avi-nlu',
+  AVI_ENCLOSURE: 'avi-enclosure',
+  AVI_STUDIO: 'avi-studio',
+  AVI_DOCS: 'avi-docs',
+  AACP_V2: 'aacp-v2',
+  // Alex (Archived)
+  ALEX: 'alex',
+  ALEX_INTENT_EDITOR: 'alex-intent-editor',
+  ALEX_DASHBOARD: 'alex-dashboard',
+  // Protocols
+  AESP: 'aesp',
+  // Web Applications
+  EBF_CLIENT: 'ebf-client',
+  FINALIST_HUB: 'finalist-hub',
+  SOCIAL_WAVE: 'social-wave',
+  // Productivity
+  DEEP_THOUGHTS: 'deep-thoughts',
+  // Libraries
+  PROMISE: 'promise',
+  CONTEXT_MANAGER: 'context-manager',
+  // AI/Logic
+  LOGATE: 'logate',
   OVERVIEW: 'overview',
 } as const;
 

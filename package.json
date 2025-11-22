@@ -1,10 +1,11 @@
 {
   "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
+  "description": "Portfolio of Tiago Inês",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "bash scripts/build-folio.sh",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

@@ -1,4 +1,5 @@
 cd FolioSpace
+npm install
 npm run build
 rm -rf ../developer-portfolio/public/foliospace
 mkdir -p ../developer-portfolio/public/foliospace

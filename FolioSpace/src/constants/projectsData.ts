@@ -9,7 +9,7 @@ export const projectsData: Project[] = [
     name: 'Avi Core',
     title: 'Avi Core',
     preview: homepagePreview,
-    position: { x: 0, y: 0, z: 0, rotateY: 0 },
+    position: { x: 1500, y: 0, z: 0, rotateY: 0 },
     description:
         'The central AI voice assistant - a modern, intelligent personal assistant capable of understanding natural language and executing complex tasks',
     tech: ['AI', 'Voice Assistant', 'NLP', 'Python'],

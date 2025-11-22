@@ -10,6 +10,9 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+    icons: {
+        icon: "/profile.jpg",
+    },
   title: "Portfolio de Tiago Rodrigo dos Reis Inês - Desenvolvedor de Software",
   description:
       "Este é o portefólio de Tiago. Sou engenheiro, programador e desenvolvedor de jogos, com experiência sólida em software, sistemas embebidos e interfaces interativas. Trabalho com uma abordagem autónoma e orientada para a aprendizagem contínua, explorando novas tecnologias e metodologias que reforçam a qualidade das soluções que crio. Sou rápido a assimilar conceitos, valorizo colaboração estruturada e procuro desafios que me permitam evoluir tecnicamente enquanto contribuo para projetos com impacto real."

@@ -208,7 +208,7 @@ export const projectsData: Project[] = [
     tech: ['Notes', 'Productivity', 'Block Editor', 'Mental Health'],
     links: [
       { type: 'demo', url: 'https://deepthoughts-omega.vercel.app/', text: 'Try It' },
-      { type: 'code', url: 'https://github.com/apoll011/deepthoughts', text: 'Github', githubRepo: 'apoll011/deepthoughts' },
+      { type: 'code', url: 'https://github.com/apoll011/deeptoughts', text: 'Github', githubRepo: 'apoll011/deeptoughts' },
     ],
     layout: 'reverse',
   },

@@ -29,7 +29,7 @@ const TitleSlide = () => {
           <BlurFade delay={0.2} inView>
             <div className="greeting-section">
               <h1 className="profile-name">
-                Hey 👋, I'm <span className="cursor-target">SimonAKing</span>!
+                Hey 👋, I'm <span className="cursor-target">Apoll011</span>!
               </h1>
             </div>
           </BlurFade>

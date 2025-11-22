@@ -7,8 +7,8 @@ export const USER_CONFIG = {
   JOB_TITLE: 'Desenvolvedor',
   BIO: [
     'Engenheiro que programa tudo o que mexe (e o que não devia mexer também)',
-    'Game Dev de coração | A criar mundos quando devia estar a dormir',
-    'Nerd da IA | Sempre a testar coisas que provavelmente vão crashar',
+    'A criar mundos quando devia estar a dormir',
+    'Nerd, Sempre a testar coisas que provavelmente vão dar errado',
   ],
 
   CONTACT_LINKS: [

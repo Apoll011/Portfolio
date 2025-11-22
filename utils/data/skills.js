@@ -1,15 +1,11 @@
 export const skillsData = [
   'Python',
   'Rust',
-  'Go',
   'C',
-  'C++',
   'C#',
   'PHP',
   'Swift',
   'Kotlin',
-  'Dart',
-  'Julia',
   'HTML',
   'CSS',
   'JavaScript',
@@ -19,8 +15,6 @@ export const skillsData = [
   'ViteJS',
   'Next JS',
   'Node JS',
-  'MQTT',
-  'Ubuntu',
   'Unity',
   'Blender',
   'Git',
@@ -35,7 +29,3 @@ export const skillsData = [
   'WordPress',
   'FastAPI'
 ]
-
-// Choose your skills from below. Make sure it's in the same format and spelled correctly.
-// Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-

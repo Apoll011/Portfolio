@@ -115,7 +115,7 @@ const ProjectCard = memo(({ project }: { project: Project }) => {
       }
 
       try {
-        const response = await fetch(`/api/github-repo?repo=${githubRepo}`);
+        const response = await fetch(`/api/git?repo=${githubRepo}`);
         if (!response.ok) {
           throw new Error(`Server error: ${response.status}`);
         }

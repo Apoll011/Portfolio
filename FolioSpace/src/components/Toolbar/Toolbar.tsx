@@ -6,13 +6,13 @@ import './Toolbar.css';
 const Toolbar = () => {
   const [isAutoplay, setIsAutoplay] = useState(false);
   const [isMiniMapVisible, setIsMiniMapVisible] = useState(false);
-  const [theme, setTheme] = useState<'light' | 'dark'>('light');
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark');
   const autoplayTimerRef = useRef<number | null>(null);
   const autoplayIntervalRef = useRef<number>(3000);
 
   useEffect(() => {
     const savedTheme =
-      (localStorage.getItem('theme') as 'light' | 'dark') || 'light';
+      (localStorage.getItem('theme') as 'light' | 'dark') || 'dark';
     setTheme(savedTheme);
     applyTheme(savedTheme);
   }, []);

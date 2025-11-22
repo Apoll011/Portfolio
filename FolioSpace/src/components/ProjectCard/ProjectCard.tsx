@@ -1,5 +1,4 @@
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
-import { GITHUB_TOKEN } from '../../constants/userConfig';
 import { GitHubRepoInfo, Link, Project } from '../../types/project';
 import './ProjectCard.css';
 
@@ -119,7 +118,7 @@ const ProjectCard = memo(({ project }: { project: Project }) => {
           `https://api.github.com/repos/${githubRepo}`,
           {
             headers: {
-              Authorization: `bearer ${GITHUB_TOKEN.replaceAll("?", "")}`,
+              Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
               Accept: 'application/json',
             },
           },

@@ -310,10 +310,8 @@ export const personalData = {
 | File               | Purpose                                        |
 | ------------------ | ---------------------------------------------- |
 | `experience.js`    | Your work experience and job history           |
-| `projects-data.js` | Portfolio projects with descriptions and links |
 | `skills.js`        | Technical skills and competencies              |
 | `educations.js`    | Academic background and certifications         |
-| `contactsData.js`  | Contact form configuration                     |
 
 #### 🎨 Adding Your Profile Image
 

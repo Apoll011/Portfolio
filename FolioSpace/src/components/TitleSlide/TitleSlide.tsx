@@ -59,7 +59,7 @@ const TitleSlide = () => {
               <button
                 key={index}
                 onClick={() => handleSocialClick(link.url || '', link.type)}
-                className={`social-link cursor-target ${link.type === 'wechat' ? 'wechat' : ''}`}
+                className={`social-link cursor-target`}
                 // title={link.text}
               >
                 <i className={link.icon}></i>

@@ -24,7 +24,7 @@ export const projectsData: Project[] = [
     name: 'Avi NLU',
     title: 'Avi NLU',
     preview: homepagePreview,
-    position: { x: 400, y: 200, z: 100, rotateY: 15 },
+    position: { x: 1800, y: 450, z: 600, rotateY: 25 },
     description:
         'Avi Natural Language Understanding Engine - a cloud service that powers Avi\'s ability to comprehend and process natural language',
     tech: ['NLU', 'Cloud', 'Machine Learning', 'API'],
@@ -38,7 +38,7 @@ export const projectsData: Project[] = [
     name: 'Avi Enclosure',
     title: 'Avi Enclosure',
     preview: homepagePreview,
-    position: { x: 600, y: 400, z: 200, rotateY: 30 },
+    position: { x: -1400, y: 1200, z: 300, rotateY: 310 },
     description:
         'A lightweight operating system that enables various devices to communicate with Avi through AACP v2 protocol',
     tech: ['Embedded', 'OS', 'IoT', 'AACP'],
@@ -52,7 +52,7 @@ export const projectsData: Project[] = [
     name: 'Avi Studio',
     title: 'Avi Studio',
     preview: homepagePreview,
-    position: { x: 800, y: 600, z: 300, rotateY: 45 },
+    position: { x: 700, y: -1600, z: 900, rotateY: 55 },
     description:
         'An integrated development environment (IDE) for creating and managing skills for the Avi assistant',
     tech: ['IDE', 'Developer Tools', 'Skills', 'Desktop'],
@@ -67,7 +67,7 @@ export const projectsData: Project[] = [
     name: 'Avi Documentation',
     title: 'Avi Documentation',
     preview: homepagePreview,
-    position: { x: 1000, y: 800, z: 400, rotateY: 60 },
+    position: { x: -2100, y: -400, z: 1200, rotateY: 195 },
     description:
         'Comprehensive documentation site for the Avi ecosystem - guides, API references, and tutorials for developers',
     tech: ['Documentation', 'Web', 'Developer Resources'],
@@ -82,7 +82,7 @@ export const projectsData: Project[] = [
     name: 'AACP v2',
     title: 'AACP v2',
     preview: homepagePreview,
-    position: { x: 1200, y: 600, z: 500, rotateY: 75 },
+    position: { x: 2400, y: -900, z: 400, rotateY: 75 },
     description:
         'Avi Assistant Communication Protocol version 2 - a simplified protocol for device-to-Avi communication',
     tech: ['Protocol', 'Communication', 'IoT'],
@@ -98,7 +98,7 @@ export const projectsData: Project[] = [
     name: 'Alex',
     title: 'Alex',
     preview: homepagePreview,
-    position: { x: 1400, y: 400, z: 600, rotateY: 90 },
+    position: { x: -500, y: 1900, z: 1500, rotateY: 280 },
     description:
         'The original AI voice assistant (predecessor to Avi) - built in Python, Julia, and Java. Now archived.',
     tech: ['AI', 'Voice Assistant', 'Python', 'Julia', 'Java', 'Archived'],
@@ -112,7 +112,7 @@ export const projectsData: Project[] = [
     name: 'Alex Intent Editor',
     title: 'Alex Intent Editor',
     preview: homepagePreview,
-    position: { x: 1500, y: 200, z: 700, rotateY: 105 },
+    position: { x: 1200, y: 1400, z: 2100, rotateY: 40 },
     description:
         'A DSL-based editor for creating intents for Alex - define text patterns, skills, and actions in a visual interface',
     tech: ['DSL', 'Editor', 'NLP', 'Archived'],
@@ -126,7 +126,7 @@ export const projectsData: Project[] = [
     name: 'Alex Dashboard',
     title: 'Alex Dashboard',
     preview: homepagePreview,
-    position: { x: 1500, y: 0, z: 800, rotateY: 120 },
+    position: { x: -1800, y: -1500, z: 700, rotateY: 225 },
     description:
         'A web dashboard for controlling and configuring Alex assistant properties. Now archived.',
     tech: ['Dashboard', 'Web', 'Admin', 'Archived'],
@@ -142,7 +142,7 @@ export const projectsData: Project[] = [
     name: 'AESP',
     title: 'AESP',
     preview: homepagePreview,
-    position: { x: 1400, y: -200, z: 900, rotateY: 135 },
+    position: { x: 300, y: 2200, z: 500, rotateY: 15 },
     description:
         'AVE-Core Communication Protocol - the first version of the protocol designed for communication between AVE and its CORE',
     tech: ['Protocol', 'Communication', 'Networking'],
@@ -158,7 +158,7 @@ export const projectsData: Project[] = [
     name: 'EBF Client',
     title: 'EBF Client',
     preview: homepagePreview,
-    position: { x: 1200, y: -400, z: 1000, rotateY: 150 },
+    position: { x: -2500, y: 700, z: 1800, rotateY: 165 },
     description:
         'A comprehensive church camp management dashboard - track children attendance, manage game markets, and handle all camp-related activities',
     tech: ['Fullstack', 'Dashboard', 'Web', 'Church'],
@@ -170,16 +170,16 @@ export const projectsData: Project[] = [
   },
   {
     id: SLIDE_IDS.FINALIST_HUB,
-    name: 'Finalist Hub Client',
-    title: 'Finalist Hub Client',
+    name: 'Finalist Hub',
+    title: 'Finalist Hub',
     preview: homepagePreview,
-    position: { x: 900, y: -600, z: 1100, rotateY: 165 },
+    position: { x: 2000, y: 1800, z: 1100, rotateY: 95 },
     description:
         'Event management platform for 12th grade graduation committee - create events, manage ticket sales, and track finances',
     tech: ['Fullstack', 'Events', 'E-commerce', 'Web'],
     links: [
       { type: 'demo', url: 'https://finalisthub.example.com', text: 'Live Demo' },
-      { type: 'code', url: 'https://github.com/username/finalist-hub-client', text: 'Github', githubRepo: 'username/finalist-hub-client' },
+      { type: 'code', url: 'https://github.com/username/finalist-hub', text: 'Github', githubRepo: 'username/finalist-hub' },
     ],
     layout: 'reverse',
   },
@@ -188,7 +188,7 @@ export const projectsData: Project[] = [
     name: 'Social Wave',
     title: 'Social Wave',
     preview: homepagePreview,
-    position: { x: 600, y: -800, z: 1200, rotateY: 180 },
+    position: { x: -900, y: -2100, z: 1400, rotateY: 250 },
     description:
         'An educational platform teaching children and teenagers how to safely and responsibly use social media',
     tech: ['Education', 'Web', 'Social Media', 'Youth'],
@@ -199,13 +199,13 @@ export const projectsData: Project[] = [
     layout: 'standard',
   },
 
-  // === PRODUCTIVITY APPS ===
+  // === PRODUCTIVITY ===
   {
     id: SLIDE_IDS.DEEP_THOUGHTS,
     name: 'DeepThoughts',
     title: 'DeepThoughts',
     preview: homepagePreview,
-    position: { x: 300, y: -1000, z: 1300, rotateY: 195 },
+    position: { x: 1500, y: -300, z: 2400, rotateY: 120 },
     description:
         'A modular block-based note-taking app for journaling thoughts and emotions - express yourself through structured writing',
     tech: ['Notes', 'Productivity', 'Block Editor', 'Mental Health'],
@@ -222,7 +222,7 @@ export const projectsData: Project[] = [
     name: 'Promise',
     title: 'Promise',
     preview: homepagePreview,
-    position: { x: 0, y: -1200, z: 1400, rotateY: 210 },
+    position: { x: -1100, y: 500, z: 2600, rotateY: 330 },
     description:
         'A Python library with thread-safe Promise implementation inspired by JavaScript - handle asynchronous operations elegantly',
     tech: ['Python', 'Library', 'Async', 'Threading'],
@@ -237,7 +237,7 @@ export const projectsData: Project[] = [
     name: 'Context Manager',
     title: 'Context Manager',
     preview: homepagePreview,
-    position: { x: -300, y: -1000, z: 1500, rotateY: 225 },
+    position: { x: 2700, y: 200, z: 1700, rotateY: 60 },
     description:
         'A Python library for saving and loading objects to/from memory or files - simplified state persistence',
     tech: ['Python', 'Library', 'Serialization', 'State Management'],
@@ -247,13 +247,13 @@ export const projectsData: Project[] = [
     layout: 'reverse',
   },
 
-  // === AI/LOGIC ENGINES ===
+  // === AI/LOGIC ===
   {
     id: SLIDE_IDS.LOGATE,
     name: 'Logate',
     title: 'Logate',
     preview: homepagePreview,
-    position: { x: -600, y: -800, z: 1600, rotateY: 240 },
+    position: { x: -300, y: -1100, z: 2900, rotateY: 145 },
     description:
         'A logic inference engine that derives new premises from existing ones - input premises and discover logical conclusions',
     tech: ['Logic', 'Inference Engine', 'AI', 'Reasoning'],

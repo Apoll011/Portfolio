@@ -11,7 +11,7 @@ const formatCount = (count: number): string => {
 
 const formatDate = (dateString: string): string => {
   const date = new Date(dateString);
-  return date.toLocaleDateString('zh-CN', {
+  return date.toLocaleDateString('pt-PT', {
     year: 'numeric',
     month: 'short',
     day: 'numeric',
@@ -216,16 +216,19 @@ const ProjectCard = memo(({ project }: { project: Project }) => {
 
   return (
     <div className="project-card">
-      {isReverse ? (
-        <>
-          <PreviewSection />
+      {project.preview == "" ? (
           <InfoSection />
-        </>
-      ) : (
-        <>
-          <InfoSection />
-          <PreviewSection />
-        </>
+      ) : (isReverse ? (
+            <>
+              <PreviewSection />
+              <InfoSection />
+            </>
+            ) : (
+            <>
+              <InfoSection />
+              <PreviewSection />
+            </>
+          )
       )}
     </div>
   );

@@ -96,6 +96,10 @@ const Toolbar = () => {
     }
   };
 
+  const handleHome = () => {
+    window.location.href = '/';
+  };
+
   const handlePrev = () => {
     if (window.impress) {
       window.impress().prev();
@@ -184,6 +188,13 @@ const Toolbar = () => {
       >
         <i className="fas fa-map"></i>
         {isMiniMapVisible && <div className="minimap-indicator"></div>}
+      </button>
+      <button
+          className="toolbar-btn cursor-target"
+          onClick={handleHome}
+          data-tooltip="Home"
+      >
+        <i className="fas fa-house"></i>
       </button>
       <button
         className="toolbar-btn theme-btn cursor-target"

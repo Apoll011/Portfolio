@@ -254,7 +254,6 @@ export const projectsData: Project[] = [
         'A logic inference engine that derives new premises from existing ones - input premises and discover logical conclusions',
     tech: ['Logic', 'Inference Engine', 'AI', 'Reasoning'],
     links: [
-      { type: 'demo', url: 'https://logate.example.com', text: 'Try It' },
       { type: 'code', url: 'https://github.com/apoll011/LoGate', text: 'Github', githubRepo: 'apoll011/LoGate' },
     ],
     layout: 'standard',

@@ -7,6 +7,7 @@ export default defineConfig({
   },
   plugins: [pluginReact()],
   output: {
+    assetPrefix: 'https://portfolio-sigma-liard-61.vercel.app/foliospace',
     publicPath: '/foliospace/',
   },
 });

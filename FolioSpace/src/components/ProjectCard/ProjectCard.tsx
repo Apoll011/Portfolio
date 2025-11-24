@@ -1,6 +1,7 @@
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 import { GitHubRepoInfo, Link, Project } from '../../types/project';
 import './ProjectCard.css';
+import noScreenshot from '../assets/sc.png';
 
 const formatCount = (count: number): string => {
   if (count >= 1000) {
@@ -187,12 +188,22 @@ const ProjectCard = memo(({ project }: { project: Project }) => {
       <div
         className={`project-preview cursor-target ${loading ? 'animate' : ''}`}
       >
-        <img
-          className="project-image"
-          src={project.preview}
-          alt={project.title}
-          loading="lazy"
-        />
+        {project.preview == "no" ? (
+            <img
+                className="project-image"
+                src={noScreenshot}
+                alt={project.title}
+                loading="lazy"
+            />
+        ) : (
+            <img
+                className="project-image"
+                src={project.preview}
+                alt={project.title}
+                loading="lazy"
+            />
+        )}
+
       </div>
     ),
     [project.preview, project.title],

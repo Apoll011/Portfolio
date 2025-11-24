@@ -1,4 +1,3 @@
-import homepagePreview from '../assets/homepage.gif';
 import { Project } from '../types/project';
 import { SLIDE_IDS } from './slideIds';
 
@@ -8,7 +7,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.AVI_CORE,
     name: 'Avi Core',
     title: 'Avi Core',
-    preview: "",
+    preview: "no",
     position: { x: 1500, y: -500, z: 0, rotateY: 0 },
     description:
         'The central AI voice assistant - a modern, intelligent personal assistant capable of understanding natural language and executing complex tasks',
@@ -22,7 +21,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.AVI_NLU,
     name: 'Avi NLU',
     title: 'Avi NLU',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: 1800, y: 450, z: 600, rotateY: 25 },
     description:
         'Avi Natural Language Understanding Engine - a cloud service that powers Avi\'s ability to comprehend and process natural language',
@@ -36,7 +35,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.AVI_ENCLOSURE,
     name: 'Avi Enclosure',
     title: 'Avi Enclosure',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: -1400, y: 1200, z: 300, rotateY: 310 },
     description:
         'A lightweight operating system that enables various devices to communicate with Avi through AECP v2 protocol',
@@ -50,7 +49,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.AVI_STUDIO,
     name: 'Avi Studio',
     title: 'Avi Studio',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: 700, y: -1600, z: 900, rotateY: 55 },
     description:
         'An integrated development environment (IDE) for creating and managing skills for the Avi assistant',
@@ -65,7 +64,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.AVI_DOCS,
     name: 'Avi Documentation',
     title: 'Avi Documentation',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: -2100, y: -400, z: 1200, rotateY: 195 },
     description:
         'Comprehensive documentation site for the Avi ecosystem - guides, API references, and tutorials for developers',
@@ -80,7 +79,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.AECP_V2,
     name: 'AECP v2',
     title: 'AECP v2',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: 2400, y: -900, z: 400, rotateY: 75 },
     description:
         'Avi Assistant Communication Protocol version 2 - a simplified protocol for device-to-Avi communication',
@@ -94,7 +93,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.ALEX,
     name: 'Alex',
     title: 'Alex',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: -500, y: 1900, z: 1500, rotateY: 280 },
     description:
         'The original AI voice assistant (predecessor to Avi) - built in Python, Julia, and Java. Now archived.',
@@ -108,7 +107,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.ALEX_INTENT_EDITOR,
     name: 'Alex Intent Editor',
     title: 'Alex Intent Editor',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: 1200, y: 1400, z: 2100, rotateY: 40 },
     description:
         'A DSL-based editor for creating intents for Alex - define text patterns, skills, and actions in a visual interface',
@@ -122,7 +121,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.ALEX_DASHBOARD,
     name: 'Alex Dashboard',
     title: 'Alex Dashboard',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: -1800, y: -1500, z: 700, rotateY: 225 },
     description:
         'A web dashboard for controlling and configuring Alex assistant properties. Now archived.',
@@ -138,7 +137,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.AECP,
     name: 'AECP',
     title: 'AECP',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: 300, y: 2200, z: 500, rotateY: 15 },
     description:
         'AVE-Core Communication Protocol - the first version of the protocol designed for communication between AVI and its CORE',
@@ -154,7 +153,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.EBF_CLIENT,
     name: 'EBF Client',
     title: 'EBF Client',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: -2500, y: 700, z: 1800, rotateY: 165 },
     description:
         'A comprehensive church camp management dashboard - track children attendance, manage game markets, and handle all camp-related activities',
@@ -169,7 +168,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.FINALIST_HUB,
     name: 'Finalist Hub',
     title: 'Finalist Hub',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: 2000, y: 1800, z: 1100, rotateY: 95 },
     description:
         'Event management platform for 12th grade graduation committee - create events, manage ticket sales, and track finances',
@@ -184,7 +183,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.SOCIAL_WAVE,
     name: 'Social Wave',
     title: 'Social Wave',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: -900, y: -2100, z: 1400, rotateY: 250 },
     description:
         'An educational platform teaching children and teenagers how to safely and responsibly use social media',
@@ -201,7 +200,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.DEEP_THOUGHTS,
     name: 'DeepThoughts',
     title: 'DeepThoughts',
-    preview: homepagePreview,
+    preview: "no",
     position: { x: 1500, y: -300, z: 2400, rotateY: -10 },
     description:
         'A modular block-based note-taking app for journaling thoughts and emotions - express yourself through structured writing',
@@ -218,7 +217,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.PROMISE,
     name: 'Promise',
     title: 'Promise',
-    preview: "",
+    preview: "no",
     position: { x: -1100, y: 500, z: 2600, rotateY: 330 },
     description:
         'A Python library with thread-safe Promise implementation inspired by JavaScript - handle asynchronous operations elegantly',
@@ -232,7 +231,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.CONTEXT_MANAGER,
     name: 'Context Manager',
     title: 'Context Manager',
-    preview: "",
+    preview: "no",
     position: { x: 2700, y: 200, z: 1700, rotateY: 60 },
     description:
         'A Python library for saving and loading objects to/from memory or files - simplified state persistence',
@@ -248,7 +247,7 @@ export const projectsData: Project[] = [
     id: SLIDE_IDS.LOGATE,
     name: 'Logate',
     title: 'Logate',
-    preview: "",
+    preview: "no",
     position: { x: -300, y: -1100, z: 2900, rotateY: 145 },
     description:
         'A logic inference engine that derives new premises from existing ones - input premises and discover logical conclusions',

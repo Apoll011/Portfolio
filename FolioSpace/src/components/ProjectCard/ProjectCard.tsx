@@ -1,7 +1,7 @@
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 import { GitHubRepoInfo, Link, Project } from '../../types/project';
 import './ProjectCard.css';
-import noScreenshot from '../assets/sc.png';
+import noScreenshot from '../../assets/sc.png';
 
 const formatCount = (count: number): string => {
   if (count >= 1000) {

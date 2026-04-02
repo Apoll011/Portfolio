@@ -1,7 +1,7 @@
 // @flow strict
 import Link from 'next/link';
-import { CgGitFork } from "react-icons/cg";
-import { IoStar } from "react-icons/io5";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { personalData } from "@/utils/data/personal-data";
 
 function Footer() {
   return (
@@ -12,8 +12,16 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © <Link target="_blank" href="https://github.com/Apoll011" className="text-[#16f2b3]">Apoll011 S2 E</Link>
+            © {new Date().getFullYear()} <Link target="_blank" href="https://github.com/Apoll011" className="text-[#16f2b3]">Tiago Inês</Link>
           </p>
+          <div className="flex items-center gap-4">
+            <Link target="_blank" href={personalData.github} className="hover:text-[#16f2b3] transition-colors">
+              <BsGithub size={20} />
+            </Link>
+            <Link target="_blank" href={personalData.linkedIn} className="hover:text-[#16f2b3] transition-colors">
+              <BsLinkedin size={20} />
+            </Link>
+          </div>
         </div>
       </div>
     </div >

@@ -13,9 +13,9 @@ export const metadata = {
     icons: {
         icon: "/profile.jpg",
     },
-  title: "Portfolio de Tiago Rodrigo dos Reis Inês - Desenvolvedor de Software",
+  title: "Portfolio of Tiago Rodrigo dos Reis Inês - Software Developer",
   description:
-      "Este é o portefólio de Tiago. Sou engenheiro, programador e desenvolvedor de jogos, com experiência sólida em software, sistemas embebidos e interfaces interativas. Trabalho com uma abordagem autónoma e orientada para a aprendizagem contínua, explorando novas tecnologias e metodologias que reforçam a qualidade das soluções que crio. Sou rápido a assimilar conceitos, valorizo colaboração estruturada e procuro desafios que me permitam evoluir tecnicamente enquanto contribuo para projetos com impacto real."
+      "This is Tiago's portfolio. I am an engineer, programmer, and game developer with solid experience in software, embedded systems, and interactive interfaces. I work with an autonomous approach oriented towards continuous learning, exploring new technologies and methodologies that enhance the quality of the solutions I create. I am quick to assimilate concepts, value structured collaboration, and seek challenges that allow me to evolve technically while contributing to projects with real impact."
 };
 
 export default function RootLayout({ children }) {
